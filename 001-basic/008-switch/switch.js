@@ -1,5 +1,5 @@
 //SWITCH -> Instrucciones de control
- 
+  
 //var posDia=prompt("Escribe un día del 0-6");
 var posDia=new Date().getDay();
 console.log(typeof(posDia));//Me dice en  el inspector de elemento (console) el tipo de dato que es (string, number,...)
