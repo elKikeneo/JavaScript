@@ -1,0 +1,18 @@
+div{
+    text-align: center;
+}
+.btn{
+    display:inline-block;
+    background: gray;
+    padding:10px;
+        
+}
+.dia{
+    background: blue;
+}
+.tarde{
+    background: green;
+}
+.noche{
+    background: yellow;
+}

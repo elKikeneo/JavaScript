@@ -1,0 +1,74 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-family: sans-serif;
+    
+}
+
+.btn{
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn:first-child{
+    background: green;
+    color: #fff;
+    margin-top: 50px;
+}
+.btn:nth-child(2){
+    background: goldenrod;
+    color: #fff;
+}
+.btn:nth-child(3){
+    background: #333;
+    color: #fff;
+}
+.btn:first-child:hover{
+    background: #fff;
+    border: 1px solid green;
+    color: green;
+    margin-top: 50px;
+}
+
+.btn:nth-child(2):hover{
+    background: #fff;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+}
+.btn:nth-child(3):hover{
+    background: #fff;
+    border: 1px solid #333;
+    color: #333;
+}
+.saludo{
+    margin: 50px 50px;
+    height: 50%;
+    width: 100%;
+    
+}
+.saludo p{
+    font-size: 2em;
+}
+.mañana{
+    margin: 50px 50px;
+    height: 50%;
+    width: 100%;
+    background: green;
+}
+.tarde{
+    margin: 50px 50px;
+    height: 50%;
+    width: 100%;
+    background: goldenrod;
+}
+.noche{
+    margin: 50px 50px;
+    height: 50%;
+    width: 100%;
+    background: #333;
+}

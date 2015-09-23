@@ -1,11 +1,13 @@
 
 /*GLOBAL
-======================*/
+==========*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font:1em/1.5 sans-serif;
     padding: 10%;
@@ -14,35 +16,44 @@ body{
 a{
     text-decoration: none;
 }
+
 li{
     list-style: none;
 }
+
+h1{
+    color: tomato;
+}
 span{
-    color:#0092b2;
+    color: teal;
 }
+
 h2{
- font-size: 1em;
- margin-top: -10px;
- margin-bottom: 20px;
+    font-size: 1em;
+    margin-top: -10px;
+    margin-bottom: 20px;
 }
+
 h3{
-   color:#0092b2;
-   margin-bottom: 20px;
+    color: teal;
+    margin-bottom: 20px;
 }
+
 input{
     padding: 10px;
 }
+
 .btn{
-    background: #0092b2;
-    color:#fff;
+    background: teal;
+    color: #fff;
     padding: 6px 10px;
     display: inline-block;
-    cursor: pointer;
 }
+
 #lista{
     margin-top: 20px;
-    margin-bottom: 20px;
 }
+
 #lista li{
     background: #ededed;
     padding: 10px;

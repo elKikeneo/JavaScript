@@ -1,0 +1,32 @@
+body{
+    background: #333;
+    margin: 5% 10%;
+    font-family: sans-serif;
+}
+h1,h2,p,div{
+    color: #fff;
+    padding: 20px 0;
+}
+span{
+    color: tomato;
+}
+h1,h2{
+    text-align: center;
+    padding: 0 0;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 1.2em;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.btn{
+    background: graytext;
+    width: 200px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
