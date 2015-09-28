@@ -1,0 +1,37 @@
+
+/*GLOBAL
+======================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font:1em/1.5 sans-serif;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+li{
+    list-style: none;
+}
+
+header{
+    background: #006064;
+}
+header li{
+    display: inline-block;
+}
+header li a{
+    display:block;
+    padding: 10px;
+}
+
+/*Clase dada dinámicamente cuándo coincide url con href del enlace*/
+header li a:hover, a.activo{
+    background: #00838f;
+}
+main{
+    padding: 10%;
+}
