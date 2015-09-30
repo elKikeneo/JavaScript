@@ -1,0 +1,82 @@
+
+/*GLOBAL
+======================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font:1em/1.5 sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/*HEADER
+======================*/
+header{
+    background: #009688;
+    padding: 10px;
+    overflow: hidden;
+    line-height: 50px;
+}
+header h1{
+    color:#fff;
+    font-size: 1.6em;
+    letter-spacing: -1px;
+    float: left;
+}
+header h1 span{
+    color:#fff176;
+}
+#btn_menu{
+    width: 50px;
+    height: 50px;
+    background: url(icon-menu.png) no-repeat center;
+    background-size: 20px;
+    float: left;
+    cursor: pointer;
+}
+
+/*Menu
+===================*/
+#mascara{
+    cursor: pointer;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    
+    display: none;
+}
+#menu{
+    position: fixed;
+    background: #ededed;
+    border-right: 1px solid #ccc;
+    height: 100%;
+    width: 150px;
+    padding: 20px;
+    z-index: 2;
+    
+    left: -151px;
+    -webkit-transition: all .5s;
+}
+#menu h2{
+    margin-bottom: 20px;
+}
+#menu a{
+    color:#222;
+    font-size: .8em;
+}
+
+/*CONTENIDO
+======================*/
+main{
+    padding: 5%;
+    font-size: .8em;
+}
+/*FOOTER
+======================*/

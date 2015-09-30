@@ -1,0 +1,81 @@
+
+/*GLOBAL==================================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font: 1em/1.5 sans-serif;
+    
+}
+a{
+   text-decoration: none; 
+}
+li{
+    list-style: none;
+}
+
+/*HEADER==========================================*/
+header{
+    width: 100%;
+    background: teal;
+    color: #fff;
+    padding: 20px 10px;
+    overflow: hidden;
+    line-height: 50px; /*ESTO SIRVE PARA QUE SE ALINEE EL LOGO DE LA DERECHA CON EL MENUTOP*/ 
+}
+header h1{
+    font-size: 1.4em;
+    letter-spacing: -2px;
+    font-weight: lighter;
+    float: left
+}
+header h1 span{
+    color: tomato;
+}
+#btn_menu{
+    background: url(icon-menu.png) no-repeat center;
+    height: 50px;
+    width: 50px;
+    background-size: 20px;
+    float: right;
+    cursor: pointer;
+    display: none;/*ocultamos-mostramos en función de la media*/
+}
+
+/*MENU=================================================*/
+nav{
+    background: #B2EBF2;
+    height: 40px;
+    -webkit-transition: all .5s;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    color: teal;
+    padding: 10px;
+    display: block;
+    font-size: .8em;
+}
+nav a:hover{
+    background: skyblue;
+}
+
+/*CONTENIDO========================================*/
+main{
+    padding: 5% 10%;
+}
+
+@media (max-width:600){
+    
+}
+
+
+
+
+
