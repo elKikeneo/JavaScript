@@ -1,0 +1,60 @@
+
+/*GLOBAL
+======================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font:1em/1.5 sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/*HEADER
+======================*/
+header{
+    background: #6c7a89;
+    color:#fff;
+    padding: 20px;
+}
+header h1{
+    font-size: 1.8em;
+    font-weight: lighter;
+    letter-spacing: -2px;
+}
+header span{
+    color:#744653;
+}
+
+/*CONTENIDO
+======================*/
+main{
+    padding: 5%;
+}
+#slider{
+    width: 980px;
+    margin: 0 auto;
+    background: #222;
+    height: 420px;
+    border: 10px solid #744653;
+    overflow: hidden;
+}
+#content_img{
+    width: 300%;
+    position: relative;
+    
+    left:0%;
+    -webkit-transition: all 1s;
+}
+#content_img img{
+    width: 33.33333333%;
+}
+
+/*FOOTER
+======================*/

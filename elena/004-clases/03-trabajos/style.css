@@ -1,0 +1,39 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{font:1.2em/1.5 sans-serif;}
+li{list-style: none;}
+a{text-decoration: none;color:#222;}
+
+main{
+    width: 80%;
+    margin: 5% auto;
+}
+.btn{
+    width: 150px;
+    padding: 10px 20px;
+    background: #ededed;
+    display: inline-block;
+    margin:0 0px 20px 0;
+    cursor:pointer;
+    border-radius: 15px 15px 0 0;
+}
+.btn.active, .btn:hover{/*clase dada con js*/
+    background: #fff;
+    border:1px solid #ededed;
+    border-bottom: none;
+}
+
+.trabajo{
+    width: 300px;
+    background: #222;
+    float: left;
+    margin: 20px 20px 0 0;
+}
+.trabajo img{
+    display: block;
+}
+.trabajo span{
+    display: block;
+    font-size: .8em;
+    color:#fff;
+    padding: 15px;
+}

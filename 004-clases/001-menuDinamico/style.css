@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    font: 1em/1.5 sans-serif
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+header{
+    background: tomato;
+    
+}
+header li{
+    display: inline-block;
+}
+header li a{
+    padding: 20px 10px;
+    color: #fff;
+}
