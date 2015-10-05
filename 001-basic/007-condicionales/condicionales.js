@@ -32,25 +32,36 @@ if (ciudadano == "Madrid") {
 } else if (ciudadano == "Vigo") {
     document.write("<p>Bienvenido Gallego!</p>");
 } else {
-    document.write("<p>Bienvenido Cidadano del mundo!</p>");
+    document.write("<p>Bienvenido Ciudadano del mundo!</p>");
 }
 
 //EJERCICIO DE VALIDACIÓN DEL DNI -> el calculo de la letra del DNI es un proceso matemático sencillo que se basa en obtener el resto de la división del número del DNI y el número 23. A partir del resto se obtiene la posición de la letra que corresponde dentro del listado de datos (Array).
 
 var letras = new Array("T","R","W","A","G","M","Y","F","P","D","X","B","N","J","Z","S","Q","W","H","L","C","K","E");
 
-//var numDni=prompt("¿Cuál es tu DNI?","Sin letra");
-//var letra=prompt("Indica la letra del DNI");
-//letra=letra.toUpperCase();
+var numDni=prompt("¿Cuál es tu DNI?","Sin letra");
+var letra=prompt("Indica la letra del DNI");
+letra=letra.toUpperCase();
+
+if (numDni.length != 8){
+    document.write("Tu número de DNI "+numDni+" no es correcto, debes introducir 8 caracteres.");
+}else{
+    //El número tiene 8 digitos-> vamos a comprobar si el numero corresponde con la letra
+    if (letras[numDni%23] == letra){
+        document.write("Tu número "+numDni+letra+" es correcto");
+    }else{
+        document.write("Tu número "+numDni+letra+" es incorrecto");
+    }
+}
 
 
 
-// terminar ejercicio...
+
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-var resp=prompt("¿Sabes de web?");
+var resp=prompt("¿Sabes de web?", "Responde sí o no");
 
 if (resp=="si"){
     var conoc=prompt("¿Eres junior o senior?");

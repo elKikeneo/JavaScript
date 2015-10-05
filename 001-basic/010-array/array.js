@@ -1,3 +1,6 @@
+var palabra="Elena";
+palabra.length; //attr .length sobre cadena de texto, nos devuelve el número de caracteres, pero si utilizamos el .length para un array, éste nos devuelve el número del elementos que contiene
+
 //Array -> listado de datos accesibles por su posición
 var alumnos=new Array("Imanaol","Yolanda","Iván","Kike"); 
 alumnos=["Imanaol","Yolanda","Iván"]; // También se puede crear un array solo con poner [ ]  y no "new Array"
@@ -95,13 +98,16 @@ if (result>0){
 //Funciones de array para ORDENAR  elementos
 ////////////////////////////////////////////////////////////////
 //función sort() = ordena alfabétcamente los elementos de una array sobreescribiéendo sobre este orden nuevo...
+document.write(alumnos.sort()+"<br>");
+document.write(alumnos);
 
-// terminar....
+
 
 
 
 
 //VER EL LINK QUE ELENA SUBE AL EDMODO
+//Link para ver más funciones :http://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=834:funciones-arrays-javascript-push-sort-ordenar-numeros-concat-join-pop-shift-slice-splice-etc-cu01153e&catid=78:tutorial-basico-programador-web-javascript-desde-&Itemid=206
 
 
 
