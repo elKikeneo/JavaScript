@@ -16,4 +16,12 @@ function ponerEstiloAzul(){
 }
 
 function ponerEstiloVerde(){
+    var colorVerde='#47bf58';
+    titulo.style.color=colorVerde;
+    texto.style.color=colorVerde;
+    texto.innerHTML = "El color utilizado es "+colorVerde;
+}
+
+function reset(){
+    location.reload();
 }

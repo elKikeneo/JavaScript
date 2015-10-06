@@ -5,30 +5,42 @@
 window.onload = function() {
 
 
-        ////SELECTORES
-        //por ID -> selector único 
-        var info = document.getElementById("info");
+    ////SELECTORES
+    //por ID -> selector único 
+    var info = document.getElementById("info");
 
-        //por TAG -> genera un array con todos los elementos de esa etiqueta
-        var enlaces=document.getElementsByTagName("a");
+    //por TAG -> genera un array con todos los elementos de esa etiqueta
+    var enlaces = document.getElementsByTagName("a");
 
-        //por CLASS -> genera un array con todos los elementos de esa clase
-        var destacados=document.getElementsByClassName("dest");
+    //por CLASS -> genera un array con todos los elementos de esa clase
+    var destacados = document.getElementsByClassName("dest");
 
 //Contar e insertar información
-info.innerHTML="Nº de enlaces: "+enlaces.length+"<br>";
-info.innerHTML+="Nº de elementos destacados: "+destacados.length+"<br>";
+    info.innerHTML = "Nº de enlaces: " + enlaces.length + "<br>";
+    info.innerHTML += "Nº de elementos destacados: " + destacados.length + "<br>";
 
 //Accedemos a los atributos de los objetos
 //Mostrar el href del primer enlace
-info.innerHTML+="Atributo del primer enlace: "+enlaces[0].href+"<br>";
+    info.innerHTML += "Atributo del primer enlace: " + enlaces[0].href + "<br>";
 
 //Mostrar el href del último enlace
-info.innerHTML+="Atributo del último enlace: "+enlaces[enlaces.length-1].href+"<br>";
+    info.innerHTML += "Atributo del último enlace: " + enlaces[enlaces.length - 1].href + "<br>";
 
 //Hacer una lista con los enlaces
 
-info.innerHTML+="<ul id='lista'></ul>"; //TERMINAR
+    info.innerHTML += "<ul id='lista'></ul>";
+    var lista = document.getElementById('lista');
+    for (var i = 0; i < enlaces.length; i++) {
+        lista.innerHTML += "<li>" + enlaces[i] + "</li>";
+    }
 
+//Contar número de elementos que van al index
+    var contadorIndex = 0;
+    for (var i = 0; i < enlaces.length; i++) {
+        if (enlaces[i].href.match('index') == 'index') {
+            contadorIndex++;
+        }
+    }
+    info.innerHTML += "Nº de enlaces que van a index: " + contadorIndex;
 
 }

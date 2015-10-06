@@ -25,8 +25,8 @@ window.onload = function(){
     //Listado de links
     info.innerHTML += "<ul id='lista'></ul>";
     var lista=document.getElementById('lista');
-    for(var i=0; i<enlaces.length;i++){
-        lista.innerHTML += "<li>"+enlaces[i]+"</li>" 
+    for(var i=0; i<enlaces.length; i++){
+        lista.innerHTML += "<li>"+enlaces[i]+"</li>";
     }
     
     //Contar número de elementos que van al index
@@ -37,9 +37,5 @@ window.onload = function(){
         }
     }
     info.innerHTML += "Nº de enlaces que van a info:"+contadorIndex;
-    
-    
-    
-    
     
 }

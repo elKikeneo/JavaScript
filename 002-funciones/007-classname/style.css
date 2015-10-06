@@ -30,3 +30,20 @@ h2{
     cursor: pointer;
     display: inline-block;
 }
+.btn:hover{
+    cursor: pointer;
+    background: #d1162e;
+}
+.info{
+    color: #555;
+    line-height: 16px;
+    text-align: justify;
+    font-size: 12px;
+}
+
+/*Clase que se le dará al párrafo de manera dinámica con js*/
+.destacado{
+    background: #d1162e;
+    color: #fff;
+    padding: 10px;
+}
