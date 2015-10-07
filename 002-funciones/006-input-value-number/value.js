@@ -24,7 +24,7 @@ function addProducto(){
         if(precio_prod == 0){
             alert("Debes introducir precio");
             inputPrecio.focus();
-        }else if(isNaN(precio_prod) ){
+        }else if(isNaN(precio_prod) ){//pregunta si es nulo
             alert("Debes introducir un valor numérico");
             inputPrecio.value = "";
             inputPrecio.focus();

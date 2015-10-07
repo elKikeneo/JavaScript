@@ -8,7 +8,7 @@ botones[0].onclick = cambiarEstilo;
 botones[1].onclick = reset;
 
 function cambiarEstilo(){
-    if(parrafo.className.match("destacado") != "destacado" ){
+    if(parrafo.className.match("destacado") != "destacado" ){//busca la palabra si lo encuentra devuelve la palabra y si no lo encuentra te devuelve -1
         parrafo.className += " destacado";
     }
 }
