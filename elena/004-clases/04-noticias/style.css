@@ -1,0 +1,103 @@
+
+/*GLOBAL
+======================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font:1em/1.5 sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/*HEADER
+======================*/
+header{
+    background: #222;
+    color:#fff;
+    padding: 20px 0;
+    margin-bottom: 40px;
+    overflow: hidden;
+    line-height: 1.8em;
+}
+header h1{
+    font-size: 1.8em;
+    font-weight: lighter;
+    letter-spacing: -2px;
+    float: left;
+}
+header h1 span{
+    color:tomato;
+}
+header nav{
+    float: right;
+}
+header nav li{
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+header nav li:hover, .activo{
+    color:tomato;
+}
+header nav li:last-child{
+    margin-right: 0;
+}
+
+/*CONTENIDO
+======================*/
+main, .main{
+    width: 80%;
+    margin: 0 auto;
+}
+main h2{
+    font-size: 2em;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+/*NOTICIAS*/
+#noticias article{
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+#noticias article:last-child{
+    border-bottom: none;
+}
+#noticias article .foto{
+    width: 20%;
+    height: 200px;
+    
+    background: url(img/caja3img1.jpg) no-repeat center;
+    background-size: cover;
+    float: left;
+}
+#noticias article .datos{
+    width: 80%;
+    float: left;
+    padding-left: 20px;
+}
+#noticias article .datos h3:hover{
+    color: tomato;
+    cursor: pointer;
+}
+#noticias article .datos p:last-child{
+    margin-top: 20px;
+    color:#999;
+    font-style: italic;
+    font-size: .8em;
+    text-align: right;
+}
+
+/*FOOTER
+======================*/
