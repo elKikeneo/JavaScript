@@ -1,0 +1,116 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-oct-2015, 17:18:28
+    Author     : elenanaranjoaybar
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header{
+    background: #222;
+    color:#fff;
+    padding: 10px;
+    overflow: hidden;
+    line-height: 1.8em;
+    margin-bottom: 40px;
+}
+header h1{
+    font-size: 1.8em;
+    font-weight: lighter;
+    letter-spacing: -2px;
+    float: left;
+}
+header h1 span{
+    color: tomato;
+}
+header nav{
+    float: right;
+}
+header nav li{
+    display: inline-block;
+    margin-right: 10px;
+    color:#fff;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+header nav li:last-child{
+    margin-right: 0;
+}
+ .active{
+    color: tomato;
+}
+
+main, .main{
+    width: 80%;
+    margin: 0 auto;
+}
+main h2{
+    font-size: 2em;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+main h2 span{
+    text-transform: capitalize;
+    color:tomato;
+    font-size: .8em;
+}
+#fotos{
+    overflow: hidden;
+}
+.foto{
+    width: 25%;
+    height: 200px;
+    float: left;
+    border: 1px solid #fff;
+}
+
+#mascara{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 2;
+}
+#contenedorFoto{
+    background: rgba(0,0,0,.8);
+    position: fixed;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.fotoView{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.fotoView div{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.fotoView p{
+    color:#fff;
+    font-size: 1.2em;
+    bottom: 10px;
+    left: 10px;
+}
+
+@media (max-width:480px){
+    .foto{
+        width: 50%;
+    }
+}
