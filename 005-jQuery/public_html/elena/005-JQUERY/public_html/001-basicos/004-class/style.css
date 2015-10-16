@@ -1,0 +1,23 @@
+
+/*GLOBAL
+======================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font:1em/1.5 sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+.verde{
+    color:teal;
+    font-size: 2em;
+}
